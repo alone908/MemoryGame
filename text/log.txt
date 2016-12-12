@@ -1,0 +1,75 @@
+2016/01/31  Start Memory Game Project
+==============================================
+1.Build basic icon array in array.php   ---> Done
+2.Echo basic game table in index.php   ---> Done
+==========================================
+3.Add app.js for index.php   ---> Done
+4.Add h1 title in index.php   ---> Done
+5.Finish game_start function in app.js to close icon   ---> Done
+6.Finish changeh1 function to change h1 in index.php   ---> Done
+7.Finish click function for class cell to open icon   ---> Done
+8.Finish click function for cell to pair icon   ---> Done
+======================================================
+9.Add option.php let player make choice   ---> Done
+10.Finish row and column number input option in option.php and submit to index.php   ---> Done
+11.Add Exit button in index.php to go back to option.php   ---> Done
+12.Add Start over button in index.php(not fuctional yet)   ---> Done
+===============================================================
+13.Add js/option.js for option.php   ---> Done
+14.Make sure player will not have odd icons in game in js/option.js   ---> Done
+===================================================================
+15.Merge array.php and partial index.php become table.php   ---> Done
+16.change app.js to js/game.js   ---> Done
+17.change index.php file name to game.php   ---> Done
+18.Finish Start over button in game.php use ajax require php return new game table and use javascript replace it   ---> Done
+===========================================================
+19.Add special icon check box in option.php   ---> Done
+20.Add special icon number input in option.php   ---> Done
+21.Add special icon refresh and bomb in table.php   ---> Done
+22.Fix Start over button function after add special icon   ---> Done
+========================================================
+23.Finish refresh icon function in js/game.js   ---> Done
+24.Fix Bug: Player can click during the refreshing   ---> Done
+======================================================
+25.Finish option form in option.php (html and css part)   ---> Done
+26.Add new index.php   ---> Done
+27.Use session store option setting and change option page submit to new index.php   ---> Done
+28.New index.php submit to game.php or option.php   ---> Done
+29.Fix Bug: Player can chose normal and custom choice at same time   ---> Done
+30.Fix Bug: Player can uncheck special icon and still have special icon number   ---> Done
+31.Fix Bug: Player can have special icon more than total icons   ---> Done
+32.Finish Default level setting in the game   ---> Done
+===========================================================
+33.Finish option form rule description part in option.php   ---> Done
+34.Fix Bug: During the refreshing icon or before game start, press startover button will crush game   ---> Done
+35.Adust option.php css  change last 3 rows color   ---> Done
+36.Rewrite changeh1() function   ---> Done
+37.Add restore_class function to restore icon class back to original.   ---> Done
+38.Finish Bomb Icon function   ---> Done
+39.Finish Win and Gameover function   ---> Done
+40.Finish Game Left information Div
+41.Fix Bug, after Gameover, icons were not covered by gameover image still can be clicked
+42.Finish Chance Tool function
+43.Fix Bug, Refresh Icon will Crush during bombing
+44.Fix Bug, Chance Tool will select Bomb and Refresh icon and paired.
+45.Fix Bug, Chance Tool wii Crush, when chance tool happened to paired last one pair and won't let game win.
+46.Change refresh icon loop condition to pair_remain*2 or row_val*col_val
+47.Fix Bug, If Chance make the third pair, bomb won't stop.
+==================================================================
+48.Fix Bug, Chance h1 did not work  ---> Done
+49.Fix Bug: Changeh1 function countdown problem, affect by other function  ---> Done
+50.Fix Bug: When use chance tool during bombing, h1 will over over write by timer to quickly  ---> Done
+=============================================================================================
+51.Finish Random Option button in option.php  ---> Done
+52.Fix Bug: In the Bigger screen, gameover and win and explain image position will change due to css absolute position setting  ---> Done
+53.Fix Bug: Chance Tool will double countdown  ---> Done
+54.Fix Bug: If use chance tool when count down to 1 seconds, countdown will continue.  ---> Done
+======================================================================================================
+55.Add login, signup system
+56.write countscore function
+57.Add play history in database
+58.Set different size for screen
+===================================================
+
+
+change chance and peek tool css when disabled or clicked

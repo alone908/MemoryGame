@@ -1,0 +1,32 @@
+Easy   Normal  Hard
+========================
+Descrption Rull
+
+Easy(cells 30  5*6)
+1.Make Pairs
+2.5 Chance  -->open two icon radomly each time
+3.6 Peek  -->chose one icon you want to see each time
+
+Normal(cells 48 6*8)
+1.Make Pairs
+2.3 Chance  -->open two icon radomly each time
+3.4 Peek  -->chose one icon you want to see each time
+4.refresh icon*2  -->rearrange icons haven't be opened yet
+5.countdown bomb icon*2  -->Make 3 pairs before timeout otherwise gameover
+
+Hard(cells 70  7*10)
+1.Make Pairs
+2.0 Chance  -->open two icon radomly each time
+3.0 Peek  -->chose one icon you want to see each time
+4.refresh icon*4  -->rearrange icons haven't be opened yet
+5.countdown bomb icon*4  -->Make 3 pairs before timeout otherwise gameover
+==========================
+Custom setting
+=========================
+row:
+col:
+Tips:
+Peek:
+Refresh: *2(cells>32) *4(cells>56) *6(cells>72)
+Bomb:    *2(cells>32) *4(cells>56) *6(cells>72)
+=========================
