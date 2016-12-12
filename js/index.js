@@ -22,6 +22,11 @@ $(document).ready(function(){
         {top: -310},300
       );
 
+    }else if ($('.index_h1').css('margin-top') == "0px") {
+      $('.login').animate(
+        {top: -310},300
+      );
+
     }
 
   })

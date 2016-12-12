@@ -466,6 +466,117 @@ body {
   text-align: center;
 }
 
+@media (min-width: 650px) {
+  .index_h1{
+    margin-top: 0px;
+  }
+
+  .login_button, .signup_button {
+    margin-top: 0px;
+    background-color: white;
+  }
+
+  .signup_user, .signup_pass, .signup_firstname, .signup_lastname, .signup_country, .signup_email{
+    font-size: 16px;
+  }
+
+  .game_left_div {
+    width: 160px;
+    margin: 10px;
+    line-height: 28px;
+    font-size: 12px;
+  }
+
+  .left_info {
+    padding-left: 15px;
+    height: 380px;
+  }
+
+  .leftinfo_icon > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .game_right_div {
+    width: 160px;
+    margin: 10px;
+    line-height: 20px;
+    font-size: 13px;
+  }
+
+  .right_info {
+    padding-left: 20px;
+    height: 450px;
+  }
+
+  .rank {
+    font-size: 24px;
+    font-weight:bold;
+  }
+
+  .rank_name {
+    font-size: 14px
+  }
+
+  .rank_detail {
+    padding-left: 0px;
+  }
+
+  .game_left_div > button, .game_left_div > form > button{
+    width: 140px;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .chance > img, .peek > img {
+    width: 90px;
+    height: 25px;
+  }
+
+  .end_container, .win_container {
+    width: 600px;
+  }
+
+  .explain_container {
+    width: 800px;
+  }
+
+  .game_end, .game_win {
+    width: 600px;
+  }
+
+  .game_end > img, .game_win > img {
+    width: 600px;
+  }
+
+  .game_explain {
+    width: 800px;
+  }
+
+  .game_table {
+    width: 800px;
+  }
+
+  .main_table > tbody > tr > td{
+    width: 55;
+    height: 55;
+    border: 1px solid red;
+    background-size: cover;
+  }
+
+  .cell, .paired, .open, .refresh, .bomb, .changing, .peekicon {
+    width: 55;
+    height: 55;
+    border: 1px solid red;
+  }
+
+  .cell > img, .paired > img, .bomb > img, .refresh > img, .peekicon > img {
+    height: 55;
+    width: 55;
+  }
+}
+
 @media (min-width: 1280px) {
   .index_h1{
     margin-top: 50px;
@@ -473,6 +584,11 @@ body {
 
   .login_button, .signup_button {
     margin-top: 10px;
+    background-color: none;
+  }
+
+  .signup_user, .signup_pass, .signup_firstname, .signup_lastname, .signup_country, .signup_email{
+    font-size: 24px;
   }
 
   .game_left_div {
@@ -577,6 +693,11 @@ body {
 
   .login_button, .signup_button {
     margin-top: 15px;
+    background-color: none;
+  }
+
+  .signup_user, .signup_pass, .signup_firstname, .signup_lastname, .signup_country, .signup_email{
+    font-size: 24px;
   }
 
   .game_left_div {

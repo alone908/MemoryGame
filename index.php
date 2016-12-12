@@ -5,7 +5,7 @@
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/index.js"></script>
 </head>
-<body style="background-image:url(images/background.jpg)">
+<body id="body" style="background-image:url(images/background.jpg)">
 
 <!--style="background-image:url(images/background.jpg)"-->
 
@@ -322,7 +322,7 @@ echo "<div class = 'login'>
 
          <tr>
            <td class = 'signup_td'>
-             <h2>Username:</h2><input class = 'signup_input signup_name' id = 'playername'></input>
+             <h2 class='signup_user'>Username:</h2><input class = 'signup_input signup_name' id = 'playername'></input>
              <p class = 'invalid_name red displaynone'>Username has been token!</p>
              <p class = 'index_n check_n'>4 ~ 12 characters. Required !</p>
            </td>
@@ -330,26 +330,26 @@ echo "<div class = 'login'>
 
          <tr>
            <td class = 'signup_td'>
-            <h2>Password:</h2><input class = 'signup_input signup_password' id = 'password' type = 'password'></input>
+            <h2 class='signup_pass'>Password:</h2><input class = 'signup_input signup_password' id = 'password' type = 'password'></input>
             <p class = 'index_n check_pass' >At least 8 characters. Required !</p>
            </td>
          </tr>
 
          <tr>
            <td class = 'signup_td'>
-             <h2>First Name:</h2><input class = 'signup_input first_name'></input>
+             <h2 class='signup_firstname'>First Name:</h2><input class = 'signup_input first_name'></input>
             </td>
          </tr>
 
          <tr>
            <td class = 'signup_td'>
-             <h2>Last Name:</h2><input class = 'signup_input last_name'></input>
+             <h2 class='signup_lastname'>Last Name:</h2><input class = 'signup_input last_name'></input>
            </td>
          </tr>
 
          <tr>
            <td class = 'signup_td'>
-             <h2>Country:</h2>
+             <h2 class='signup_country'>Country:</h2>
              <select class = 'signup_input country'>
                <option disabled selected value> -- select an option -- </option>";
 
@@ -368,7 +368,7 @@ echo "        </select>
 
          <tr>
            <td class = 'signup_td'>
-             <h2>E-amil:</h2><input class = 'signup_input player_email' id = 'email'></input>
+             <h2 class='signup_email'>E-amil:</h2><input class = 'signup_input player_email' id = 'email'></input>
              <p class = 'index_n check_mail' >E-mail address. Required !</p>
            </td>
          </tr>

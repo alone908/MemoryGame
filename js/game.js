@@ -203,6 +203,8 @@ var attr_1,
         $(this).children('img').animate({height:0,width:102,},200);
       }else if ($('.cell').css('width') == "76px" && $('.cell').css('height') == "76px") {
         $(this).children('img').animate({height:0,width:76,},200);
+      }else if ($('.cell').css('width') == "55px" && $('.cell').css('height') == "55px") {
+        $(this).children('img').animate({height:0,width:55,},200);
       }
 
       if(cellclick%2 != 0){
@@ -253,6 +255,8 @@ var attr_1,
            $('.open').children('img').animate({height:102,width:102,},200);
          }else if ($('.cell').css('width') == "76px" && $('.cell').css('height') == "76px") {
            $('.open').children('img').animate({height:76,width:76,},200);
+         }else if ($('.cell').css('width') == "55px" && $('.cell').css('height') == "55px") {
+           $('.open').children('img').animate({height:55,width:55,},200);
          }
          $('.open').addClass('cell');
          $('.open').removeClass('open');
