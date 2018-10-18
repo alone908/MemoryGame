@@ -53,7 +53,7 @@ echo "<div class = 'info'>
 
          <div class = 'playericon'>
 
-           <img src = 'images/playericon/alone908.jpg'></img>
+           <img src = 'images/playericon/empty-avatar.jpg' style='cursor: pointer;' />
 
          </div>
 
