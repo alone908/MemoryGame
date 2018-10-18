@@ -1,28 +1,28 @@
 <html>
 <head>
-  <link href="css/style.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/option.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/option.js"></script>
 </head>
 <body style="background-image:url(images/background.jpg)">
 
 <?php
-echo "<div><h1 class = 'op_h1'>Chose Your Option !!!</h1></div>";
+echo "<div><h1 class = 'op_h1'>Choose Your Option !!!</h1></div>";
 echo "<div class = op_div>
         <form action = 'index.php' method = 'post'>
         <button  class = sub_op_button type = 'submit' >Save Choice !!</button><br>";
 
 echo "<table class = 'op_table'>";
 
-echo  "<tr>
+echo "<tr>
          <td class = 'op_cell'>
-           Chose Level:
+           Choose Level:
          </td>
        </tr>";
 
 
-echo  "<tr>
+echo "<tr>
          <td class = 'op_cell'>
            <input class = 'easy level' type = 'radio' name = 'level' value = 'easy' checked >Easy</input>
            <input class = 'normal level' type = 'radio' name = 'level' value = 'normal'>Normal</input>
@@ -31,7 +31,7 @@ echo  "<tr>
         </td>
        </tr>";
 
-echo  "<tr>
+echo "<tr>
          <td class = 'op_cell level_rules'>
             <h4>Rules for this level:</h4>
             <text class = 'col_notice'>(1)</text><text style = 'font-size: 20px;'> Total Icons: 4x6 = 24</text>
@@ -42,7 +42,7 @@ echo  "<tr>
       </tr>";
 
 
-echo  "<tr>
+echo "<tr>
          <td class = 'op_cell'>
            <h4>Special Icons:</h4>
             <div style ='width: 330px; padding: 0px; display: inline; float: left;'>
@@ -70,15 +70,15 @@ echo  "<tr>
          </td>
        </tr>";
 
-echo  "<tr>
+echo "<tr class='choose_ramdomly_tr'>
          <td class = 'op_cell'>
-           <button class = 'random' type = 'button' disabled> Chose Randomly !!!</button>
+           <button class = 'random' type = 'button' disabled> Choose Randomly !!!</button>
          </td>
        </tr>";
 
 echo "</table>";
 
-echo "<table class = 'op_table'>";
+echo "<table class = 'op_table customize_table'>";
 
 echo "<tr>
         <td class = 'op_cell col_1st'>
@@ -128,9 +128,9 @@ echo "<tr class = 'peek_op'>
       </tr>";
 
 echo "</table>";
-echo "<table class = 'op_table'>";
+echo "<table class = 'op_table customize_table'>";
 
-echo  "<tr>
+echo "<tr>
          <td class = 'op_cell' style = 'background-color: rgba(0,199,237,0.65);' >
          <h5 style = 'color: red'>Notice !!!</h5>
          <p class = 'notice_p opcell_2ndstyle'>Total Icons need to be <text class = 'col_notice' style = 'font-weight: bold;'>larger than</text> Refresh Icon + Bomb Icon</text></p>
@@ -138,7 +138,7 @@ echo  "<tr>
        </tr>";
 
 echo "</table>";
-echo "<table class = 'op_table'>";
+echo "<table class = 'op_table customize_table'>";
 
 echo "<tr class = 're_op'>
         <td class = 'op_cell col_1st opcell_2ndstyle' style = 'background-color: rgba(0,199,237,0.65);'>

@@ -31,7 +31,7 @@ if(isset($level)){
           <text class = 'col_notice'>(5)</text><text style = 'font-size: 20px;'> 4 Bomb Icons </text>";
   }elseif ($level === 'custom') {
     echo "<h4>Rules for this level:</h4>
-          <text style = 'font-size: 20px; color:red;'>Chose Any Option You Like Below ~~~</text>";
+          <text style = 'font-size: 20px; color:red;'>Choose Any Option You Like Below ~~~</text>";
   }
 
 
