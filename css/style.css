@@ -368,14 +368,31 @@ body {
 }
 
 .playericon {
+  display: block !important;
   width: 138px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .playericon > img {
   height: 138px;
   width: 138px;
+}
+
+.playericon > input {
+  width: 100%;
+  height: 100%;
+}
+
+#uploading_cover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
 }
 
 .info_detail {
