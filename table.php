@@ -115,7 +115,7 @@ for($r=1 ; $r<=$h ; $r++){
     for($d=1 ; $d<=$w ; $d++){
       $c++;
       $a = $pick[$c];
-      echo "<td class = \"cell\" id = '$r-$d' style='background-image:url(images/$icon[$a]);'></td>";
+      echo "<td class = \"cell\" id = '$r-$d' style='background-image:url(images/gameicon/$icon[$a]);'></td>";
     }
     echo "</tr>";
 }

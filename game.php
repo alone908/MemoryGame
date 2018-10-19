@@ -71,11 +71,11 @@ echo "<div class = 'game_left_div'>
           <h2 >Pairs Remain: <text class = 'red pair_remain'>".$pairs."</text></h2>
           <h2 >Probability: </h2>
             <div class = 'leftinfo_icon' style = 'width: 102px float: left; display: inline-block;'>
-              <img src = 'images/refresh.png' ></img>
+              <img src = 'images/gameicon/refresh.png' ></img>
               <h2 ><text class = 'red re_prob'>".$re_prob."%</text></h2>
             </div>
             <div class = 'leftinfo_icon' style = 'width: 102px float: right; display: inline-block'>
-              <img src = 'images/bomb.png' ></img>
+              <img src = 'images/gameicon/bomb.png' ></img>
               <h2 ><text class = 'red bomb_prob'>".$bomb_prob."%</text></h2>
             </div>
         <h2 >Special Tools:
@@ -157,12 +157,12 @@ echo "<div class = 'explain_container'>
          <td class = 'op_cell' style = 'background-color: rgba(0,0,0,0.8);'>
            <h4>Special Icons:</h4>
             <div style ='width: 330px; padding: 0px; display: inline; float: left;'>
-             <img src = 'images/refresh.png' style = 'float: left; margin: 5px;'></img>
+             <img src = 'images/gameicon/refresh.png' style = 'float: left; margin: 5px;'></img>
              <p class = 'col_notice' style = 'font-size: 20px; '>Refresh Icon: </p>
              <p class = 'notice_p'>Pick two icons randomly in the game and then swap over until all icons position changed.</p>
             </div>
             <div style ='width: 330px; display: inline; float: right;'>
-             <img src = 'images/bomb.png' style = 'float: left; margin: 5px;'></img>
+             <img src = 'images/gameicon/bomb.png' style = 'float: left; margin: 5px;'></img>
                <p class = 'col_notice' style = 'font-size: 20px;' >Bomb Icon: </p>
                <p class = 'notice_p'>Start to countdown 60 seconds, second bomb will halve time!
                                      Only way to cancel is making 3 pairs before timeout.</p>

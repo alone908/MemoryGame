@@ -178,7 +178,7 @@ var attr_1,
       $('.chance').attr('disabled',"");
     }
 
-    $('.cell').append('<img src=\'images/close.png\'></img>');
+    $('.cell').append('<img src=\'images/gameicon/close.png\'></img>');
     if(gamestart == 1){
         $('.st_over').removeAttr('disabled');
     }
@@ -239,7 +239,7 @@ var attr_1,
 
         $('.open').addClass('paired');
         $('.open').empty();
-        $('.open').append('<img src=\'images/good.png\'></img>');
+        $('.open').append('<img src=\'images/gameicon/good.png\'></img>');
         $('.paired').removeClass('open').removeClass('cell');
         countscore();
 
@@ -268,7 +268,7 @@ var attr_1,
     if(bombing >= 1){
       if(goodjob - cancelbomb == 3){
           clearInterval(timer_countdown);
-          $('.bombing').append('<img src=\'images/close.png\'></img>');
+          $('.bombing').append('<img src=\'images/gameicon/close.png\'></img>');
           bombing = 0;
           changeh1();
           $('.bombing').addClass('bomb');
@@ -364,10 +364,10 @@ var attr_1,
           for(c=1; c <= col_val; c++){
             if($('#'+r+"-"+c).attr('class') != "paired" && $('#'+r+"-"+c).attr('class') != "bombing"){
 
-              $('#'+r+"-"+c).append('<img src=\'images/close.png\'></img>');
-              if($('#'+r+"-"+c).attr('style') === "background-image:url(images/refresh.png);"){
+              $('#'+r+"-"+c).append('<img src=\'images/gameicon/close.png\'></img>');
+              if($('#'+r+"-"+c).attr('style') === "background-image:url(images/gameicon/refresh.png);"){
                 $('#'+r+"-"+c).toggleClass('refresh',true);
-              }else if ($('#'+r+"-"+c).attr('style') === "background-image:url(images/bomb.png);" && $('#'+r+"-"+c).attr('class') != "bombing") {
+              }else if ($('#'+r+"-"+c).attr('style') === "background-image:url(images/gameicon/bomb.png);" && $('#'+r+"-"+c).attr('class') != "bombing") {
                 $('#'+r+"-"+c).toggleClass('bomb',true);
               }else {
                 $('#'+r+"-"+c).toggleClass('cell',true);
@@ -492,7 +492,7 @@ var attr_1,
         for(r=1; r <= row_val; r++){
           for(c=1; c <= col_val; c++){
             var cellstyle = $('#'+r+"-"+c).attr('style');
-            if(cellstyle === "background-image:url(images/refresh.png);"){
+            if(cellstyle === "background-image:url(images/gameicon/refresh.png);"){
               $('#'+r+"-"+c).removeClass('cell').addClass('refresh');
             }
           }
@@ -501,7 +501,7 @@ var attr_1,
         for(r=1; r <= row_val; r++){
           for(c=1; c <= col_val; c++){
             var cellstyle = $('#'+r+"-"+c).attr('style');
-            if(cellstyle === "background-image:url(images/bomb.png);"){
+            if(cellstyle === "background-image:url(images/gameicon/bomb.png);"){
               $('#'+r+"-"+c).removeClass('cell').addClass('bomb');
             }
           }
@@ -684,8 +684,8 @@ var attr_1,
 
               $('#'+pr1+"-"+pc1).addClass('paired').removeClass('random');
               $('#'+pr2+"-"+pc2).addClass('paired').removeClass('random');
-              $('#'+pr1+"-"+pc1).append('<img src=\'images/good.png\'></img>');
-              $('#'+pr2+"-"+pc2).append('<img src=\'images/good.png\'></img>');
+              $('#'+pr1+"-"+pc1).append('<img src=\'images/gameicon/good.png\'></img>');
+              $('#'+pr2+"-"+pc2).append('<img src=\'images/gameicon/good.png\'></img>');
            }
 
            window.setTimeout(able_chance,1000);
@@ -699,7 +699,7 @@ var attr_1,
            if(bombing >= 1){
              if(goodjob - cancelbomb == 3){
                  clearInterval(timer_countdown);
-                 $('.bombing').append('<img src=\'images/close.png\'></img>');
+                 $('.bombing').append('<img src=\'images/gameicon/close.png\'></img>');
                  bombing = 0;
                  changeh1();
                  $('.bombing').addClass('bomb');
@@ -723,8 +723,8 @@ var attr_1,
 
            function to_close(){
 
-           $('#'+pr1+"-"+pc1).append('<img src=\'images/close.png\'></img>');
-           $('#'+pr2+"-"+pc2).append('<img src=\'images/close.png\'></img>');
+           $('#'+pr1+"-"+pc1).append('<img src=\'images/gameicon/close.png\'></img>');
+           $('#'+pr2+"-"+pc2).append('<img src=\'images/gameicon/close.png\'></img>');
            $('#'+pr1+"-"+pc1).removeClass('random').addClass('cell');
            $('#'+pr2+"-"+pc2).removeClass('random').addClass('cell');
           }
@@ -802,7 +802,7 @@ var attr_1,
 
     function close_peek(){
 
-      $('.thisone').append('<img src=\'images/close.png\'></img>');
+      $('.thisone').append('<img src=\'images/gameicon/close.png\'></img>');
       $('.thisone').removeClass('thisone');
       $('.peekicon').off();
 
@@ -814,7 +814,7 @@ var attr_1,
 
       for(r=1; r <= row_val; r++){
         for(c=1; c <= col_val; c++){
-          if($('#'+r+"-"+c).attr('style') !== "background-image:url(images/bomb.png)" && $('#'+r+"-"+c).attr('style') !== "background-image:url(images/refresh.png)"){
+          if($('#'+r+"-"+c).attr('style') !== "background-image:url(images/gameicon/bomb.png)" && $('#'+r+"-"+c).attr('style') !== "background-image:url(images/gameicon/refresh.png)"){
             $('#'+r+"-"+c).addClass('cell');
           }
         }
@@ -823,7 +823,7 @@ var attr_1,
       for(r=1; r <= row_val; r++){
         for(c=1; c <= col_val; c++){
           var cellstyle = $('#'+r+"-"+c).attr('style');
-          if(cellstyle === "background-image:url(images/refresh.png);"){
+          if(cellstyle === "background-image:url(images/gameicon/refresh.png);"){
             $('#'+r+"-"+c).removeClass('cell').addClass('refresh');
           }
         }
@@ -832,7 +832,7 @@ var attr_1,
       for(r=1; r <= row_val; r++){
         for(c=1; c <= col_val; c++){
           var cellstyle = $('#'+r+"-"+c).attr('style');
-          if(cellstyle === "background-image:url(images/bomb.png);"){
+          if(cellstyle === "background-image:url(images/gameicon/bomb.png);"){
             $('#'+r+"-"+c).removeClass('cell').addClass('bomb');
           }
         }
