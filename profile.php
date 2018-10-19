@@ -170,7 +170,7 @@ if ($result->num_rows == 1) {
                <td><?php echo $row['result'] ?></td>
                <td><?php echo $row['score'] ?></td>
                <td><?php echo $row['timestamp'] ?></td>
-            </tr>";
+            </tr>
 
             <?php
                 }
